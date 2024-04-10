@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/drawable-v24/button_background.xml" value="0.1945" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/drawable-v24/button_background2.xml" value="0.1945" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/drawable-v24/ic_baseline_app_registration_24.xml" value="0.1945" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/drawable-v24/ic_baseline_menu_book_24.xml" value="0.1945" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/drawable/ic_baseline_add_shopping_cart.xml" value="0.1945" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/drawable/ic_baseline_add_task_24.xml" value="0.1945" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/drawable/ic_baseline_remove_circle_outline_24.xml" value="0.1945" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/drawable/ic_baseline_remove_shopping_cart.xml" value="0.1945" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/activity_add_product.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/activity_admin_home.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/activity_admin_log_in.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/activity_catalog_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/activity_remove_product.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/activity_start.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/activity_user_log_in.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/activity_user_register.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CatalogApp/app/src/main/res/layout/cart_item.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

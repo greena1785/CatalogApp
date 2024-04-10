@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".user.catalog.CartActivity">
+
+    <ImageView
+        android:id="@+id/cart_back"
+        android:layout_width="25dp"
+        android:layout_height="25sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:translationZ="2dp"
+        android:contentDescription="@string/log_out_button"
+        android:src="@drawable/left_arrow" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp" />
+
+    <TextView
+        android:id="@+id/no_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_item_in_cart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="75dp"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:id="@+id/f1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/cart_items_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/cart_buy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/button_background2"
+            android:text="@string/buy"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

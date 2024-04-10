@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".user.catalog.HomeActivity"
+    android:background="#f5f5f5">
+
+  <ImageView
+      android:id="@+id/log_out2"
+      android:layout_width="25dp"
+      android:layout_height="25sp"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="45dp"
+      android:layout_marginEnd="25dp"
+      android:contentDescription="@string/log_out_button"
+      android:src="@drawable/img_logout" />
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/lato_light"
+        android:text="Trending Products"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/pull_to_refresh_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/recycler_home_page_catalog"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+  </LinearLayout>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/goto_cart_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginEnd="20dp"
+      android:layout_marginBottom="20dp"
+      app:tint="@color/white"
+      android:backgroundTint="@color/colorPrimary"
+      android:src="@drawable/ic_shopping_cart"
+      android:contentDescription="@string/show">
+
+  </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+</RelativeLayout>
